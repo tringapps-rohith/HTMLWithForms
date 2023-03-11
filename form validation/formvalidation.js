@@ -1,4 +1,4 @@
-const name=document.getElementById("name");
+const uname=document.getElementById("name");
 const pass=document.getElementById("pass");
 const rpass=document.getElementById("rpass");
 const email=document.getElementById("email");
@@ -20,10 +20,10 @@ let submitFunc=()=> {
 }
 let validateInputs=()=>{
     res=0;
-    formControl=name.parentElement;
+    formControl=uname.parentElement;
     small=formControl.querySelector('small');
     small.className='small';
-    if(name.value==='' || name.value.match(/[0-9]/))
+    if(uname.value==='' || uname.value.match(/\d/))
     {
         small.className='smallchange2';
         small.innerText='Your Username is invalid/It not have numbers,Symbols';
@@ -51,7 +51,7 @@ let validateInputs=()=>{
     formControl=contactno.parentElement;
     small=formControl.querySelector('small');
     small.className='small';
-    if(contactno.value.match(/^[6-9]{1}[0-9]{9}$/) && contactno.value!='')
+    if(contactno.value.match(/^\d{10}$/) && contactno.value!='')
     {
         small.className='smallchange1';
         small.innerText=contactno.value;
