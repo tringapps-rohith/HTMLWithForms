@@ -13,7 +13,6 @@ h1{
     width: 45%;
     background-color: white;
     border-radius: 50%/100% 100% 0 0;
-    font-family:Viner Hand ITC;
 }
 small{
     visibility: hidden;
@@ -37,7 +36,6 @@ form div{
     color:rgb(25, 0, 166);
     font-weight: bold;
     font-size: 25px;
-    font-family: Segoe Script;
     box-shadow: 4px 4px 2px 2px black;
 
 }
@@ -61,7 +59,6 @@ p{
     color:black;
     font-weight: bold;
     font-size: 25px;
-    font-family: Segoe Script; 
     border-radius: 40px;
     height: 80px;
     cursor: pointer;   
