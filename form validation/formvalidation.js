@@ -31,7 +31,7 @@ let validateInputs=()=>{
     }
     else{
         small.className='smallchange1';
-        small.innerText=name.value;
+        small.innerText=uname.value;
         res+=1;
     }
     formControl=email.parentElement;
