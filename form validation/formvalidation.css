@@ -1,0 +1,68 @@
+body{
+    background: url(https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+    border: 3px solid gray;
+    margin:3% auto;
+    width: 45%;
+    background-color: white;
+    border-radius: 50%/100% 100% 0 0;
+    font-family:Viner Hand ITC;
+}
+small{
+    visibility: hidden;
+}
+.smallchange1{
+    visibility: visible;
+    color:rgb(255, 251, 2);
+}
+.smallchange2{
+    visibility: visible;
+    color:red;
+}
+form div{
+    margin: auto;
+    /* text-align: center; */
+    border: 3px solid greenyellow;
+    background-color: gray;
+    width: 40%;
+    padding:20px;
+    opacity: 0.85;
+    color:rgb(25, 0, 166);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe Script;
+    box-shadow: 4px 4px 2px 2px black;
+
+}
+input{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    width: 45%;
+    margin-left:2px 50px;
+}
+p{
+    margin-left: 37%;
+}
+  button{
+    /* text-align: center; */
+    /* border: 0px thin greenyellow; */
+    background-color: white;
+    width: 20%;
+    opacity: 0.85;
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe Script; 
+    border-radius: 40px;
+    height: 80px;
+    cursor: pointer;   
+}

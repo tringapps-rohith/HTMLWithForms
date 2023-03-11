@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Validation</title>
+        <link rel="stylesheet" href="formvalidation.css">
+    </head>
+    <body>
+        <form id="form"><h1>Admission Form</h1>
+        <div><label>Name</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="text" id="name" size="30"/>
+            <small>Error Message</small>
+        </div>
+        
+        <div>Email&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="email" id="email" size="30" />
+            <small>Error Message</small>
+        </div>
+        <div>Contact No&emsp;&emsp;&emsp;
+            <input type="text" id="contactno" />
+            <small>Error Message</small>
+        </div>
+        <div>Password&emsp;&emsp;&emsp;&emsp;
+            <input type="password" id="pass" size="30" />
+            <small>Error Message</small>
+        </div>
+        <div>Repeat Password
+            <input type="password" id="rpass" size="30" />
+            <small>Error Message</small>
+        </div>
+        <p>
+           <button id="button" type="submit" >Submit</button>
+            <button id="reset" type="reset">Clear</button>
+        </p>
+    </form>
+    <script type="text/javascript" src="formvalidation.js"></script>
+    </body>
+</html>
